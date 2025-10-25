@@ -1,0 +1,149 @@
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background: #f5f5f5;
+  color: #111;
+}
+
+.navbar {
+  width: 100%;
+  background: #fff;
+  padding: 20px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #222;
+}
+
+.menu input {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.actions button {
+  margin-left: 10px;
+}
+
+.btn-outline {
+  border: 1px solid #000;
+  background: transparent;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-dark {
+  background: #000;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-outline.small,
+.btn-dark.small {
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+.hero {
+  width: 100%;
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-content {
+  max-width: 45%;
+}
+
+.hero-content h1 {
+  font-size: 46px;
+  margin-bottom: 20px;
+}
+
+.hero-buttons button {
+  margin-right: 10px;
+}
+
+.hero-img img {
+  width: 380px;
+  border-radius: 12px;
+}
+
+.featured {
+  padding: 40px 60px;
+}
+
+.featured-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subtitle {
+  margin: 10px 0 20px;
+  color: #555;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  padding: 16px;
+  background: #fff;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.steps {
+  background: #e9eef9;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 40px 60px;
+  gap: 20px;
+  text-align: center;
+}
+
+.step h4 {
+  margin-bottom: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 60px;
+  background: #fff;
+}
+
+.footer-left ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.footer-left li {
+  margin-bottom: 6px;
+}
+
+.socials span {
+  margin-right: 10px;
+}
